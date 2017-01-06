@@ -1,0 +1,22 @@
+.settings/
+
+*.class
+*.iml
+logs/
+
+# ide files #
+.classpath
+.project
+.mymetadata
+/.gradle/
+/.idea/
+/captures/
+.DS_Store
+
+# setting folders #
+.settings/
+.svn/
+.bin/
+target/
+build/
+
