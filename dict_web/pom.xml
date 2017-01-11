@@ -27,6 +27,16 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>taglibs</groupId>
+      <artifactId>standard</artifactId>
+      <version>1.1.2</version>
+    </dependency>
+    <dependency>
       <groupId>com.lvmama.tnt</groupId>
       <artifactId>dict_interface</artifactId>
       <version>${project.version}</version>
@@ -174,6 +184,12 @@
       <groupId>com.alibaba</groupId>
       <artifactId>dubbo</artifactId>
       <version>2.5.3</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>org.apache.zookeeper</groupId>
