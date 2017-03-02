@@ -34,7 +34,8 @@ public class DictDubboServiceImpl implements IDictDubboService{
         HashMap<String,Object> param = new HashMap<>();
         param.put("dictTypeCd",dictTypeCd);
         List<DictData> list = this.dictDao.queryByParameter(hql.toString(),param,false);
-        List<DictDataDto> dataDtoList = Lists.newArrayList(FluentIterable.from(list).transform(new Function<DictData, DictDataDto>() {
+        List<DictDataDto> dataDtoList = Lists.newArrayList(FluentIterable.from(list).
+                transform(new Function<DictData, DictDataDto>() {
             private DictDataDto dictDataDto;
             public DictDataDto apply(DictData dictData) {
                 dictDataDto = new DictDataDto();
