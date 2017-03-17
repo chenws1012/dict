@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>dict_interface</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>../dict_service</module>
+    </modules>
 
     <dependencies>
         <!--<dependency>-->
@@ -17,6 +21,17 @@
             <!--<artifactId>dict_common</artifactId>-->
             <!--<version>${project.version}</version>-->
         <!--</dependency>-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.3.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>15.0</version>
+        </dependency>
 
     </dependencies>
 

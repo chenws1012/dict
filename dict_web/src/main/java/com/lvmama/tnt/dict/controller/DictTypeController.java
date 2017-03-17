@@ -20,7 +20,6 @@ import com.lvmama.tnt.dict.entity.DictType;
 import com.lvmama.tnt.dict.service.IDictTypeService;
 import com.lvmama.tnt.dict.util.JsonUtil;
 import com.lvmama.tnt.dict.util.RenderUtil;
-import com.sun.corba.se.impl.orbutil.closure.Constant;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

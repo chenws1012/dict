@@ -3,10 +3,10 @@
  */
 package com.lvmama.tnt.dict.service.impl;
 
+import com.lvmama.tnt.dict.dao.DictDao;
 import com.lvmama.tnt.dict.dto.DictDataDto;
 import com.lvmama.tnt.dict.dto.DictTypeDto;
 import com.lvmama.tnt.dict.dto.Page;
-import com.lvmama.tnt.dict.dao.DictDao;
 import com.lvmama.tnt.dict.entity.DictData;
 import com.lvmama.tnt.dict.entity.DictType;
 import com.lvmama.tnt.dict.service.IDictTypeService;
@@ -14,9 +14,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.bind.annotation.RequestMapping;
 
-import javax.annotation.Resource;
 import java.util.*;
 
 
