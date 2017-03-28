@@ -9,6 +9,7 @@
  String basePath = request.getScheme() + "://"  
               + request.getServerName() + ":" + request.getServerPort() + path ;
  pageContext.setAttribute("HOME",basePath);
+ request.setAttribute("path",path);
 
 %>
 <script>
