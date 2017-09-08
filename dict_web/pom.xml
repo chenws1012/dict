@@ -205,11 +205,11 @@
     </dependency>
 
 
-    <dependency>
-      <groupId>com.lvmama.comm</groupId>
-      <artifactId>lvmama_soa</artifactId>
-      <version>1.0.3</version>
-    </dependency>
+    <!--<dependency>-->
+      <!--<groupId>com.lvmama.comm</groupId>-->
+      <!--<artifactId>lvmama_soa</artifactId>-->
+      <!--<version>1.0.3</version>-->
+    <!--</dependency>-->
 
   </dependencies>
   <build>
