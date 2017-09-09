@@ -96,7 +96,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>2.0</version>
+                <version>2.5</version>
             </plugin>
         </plugins>
     </build>
@@ -117,7 +117,7 @@
     <scm>
         <connection>scm:git:git@github.com:cws1981/dict.git</connection>
         <developerConnection>scm:git:git@github.com:cws1981/dict.git</developerConnection>
-        <url>https://github.com/cws1981/dict/tree/master</url>
+        <!--<url>https://github.com/cws1981/dict/tree/master</url>-->
     </scm>
 
 </project>
