@@ -5,7 +5,7 @@
     <groupId>com.lvmama.tnt</groupId>
     <artifactId>dict</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <modules>
         <module>dict_interface</module>
         <module>dict_web</module>
@@ -123,7 +123,7 @@
         <connection>scm:git:git@github.com:cws1981/dict.git</connection>
         <developerConnection>scm:git:git@github.com:cws1981/dict.git</developerConnection>
         <!--<url>https://github.com/cws1981/dict/tree/master</url>-->
-      <tag>dict-1.0.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
