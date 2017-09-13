@@ -43,7 +43,7 @@
     <dependency>
       <groupId>com.lvmama.tnt</groupId>
       <artifactId>dict_common</artifactId>
-      <version>${project.version}</version>
+      <version>${dict_common.version}</version>
     </dependency>
     <!--<dependency>-->
       <!--<groupId>org.springframework</groupId>-->
@@ -179,7 +179,7 @@
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>dubbo</artifactId>
-      <version>2.5.3</version>
+      <version>2.5.4</version>
       <exclusions>
         <exclusion>
           <groupId>org.springframework</groupId>

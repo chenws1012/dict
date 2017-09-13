@@ -16,6 +16,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>4.2.1.RELEASE</spring.version>
+        <dict_common.version>1.0.1-SNAPSHOT</dict_common.version>
     </properties>
 
     <dependencyManagement>
