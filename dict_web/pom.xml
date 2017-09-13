@@ -43,7 +43,7 @@
     <dependency>
       <groupId>com.lvmama.tnt</groupId>
       <artifactId>dict_common</artifactId>
-      <version>${dict_common.version}</version>
+      <version>${project.version}</version>
     </dependency>
     <!--<dependency>-->
       <!--<groupId>org.springframework</groupId>-->
