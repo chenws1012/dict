@@ -86,7 +86,7 @@
     <dependency>
       <groupId>commons-fileupload</groupId>
       <artifactId>commons-fileupload</artifactId>
-      <version>1.3.1</version>
+      <version>1.3.3</version>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
@@ -213,6 +213,12 @@
   </dependencies>
   <build>
     <finalName>dict_web</finalName>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <filtering>true</filtering>
+      </resource>
+    </resources>
     <testResources>
       <testResource>
         <directory>src/main/resources</directory>
